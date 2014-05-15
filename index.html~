@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #5E2601;
+  color: #196600;
   text-decoration: none;
 }
 #fb {
