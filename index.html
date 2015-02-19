@@ -1,96 +1,589 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<link rel="shortcut icon" href="http://static.gb.co.id/image/favicon.png" />
-<!-- Copyright ©2010 Greenboxindonesia,corp.  All rights reserved. -->
-<title>Welcome at Omah Kitir Landing Page Official Site | Still Development</title>
-<html><center>
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from getbootstrap.com/getting-started/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 02 Oct 2013 12:14:23 GMT -->
 <head>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<!-- Meta Tags -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-<meta name="viewport" content="width=device-width" />
-<meta name="keywords" content="Omah Kitir, Coffee and Snack Bar, Pizza Batu, Caffebar Batu">
-<meta name="description" content="Bangunan Omah Kitir didirikan th 1948 arsitek model tengahan (antara jaman kolonial belanda dan pasca kemerdekaan ) dibangun dan di arsiteki oleh R . Soediro dari Solo dan bangunan tersebut merupakan kantor Perumahan Rakyat (Real estate ) jaman orde lama. Bangunan yang terletak di jalan Ridwan 1 (dahulu dikenal jalan Kutilang ) merupakan bangunan yang perlu dilestarikan (heritage) dikarenakan sejak dulu area jalan ridwan merupakan pusat komunitas arek arek Batu (comunity centre), beberapa tokoh nasional yang masa kecilnya tinggal di area ini seperti Bpk Letjen Soeyono (kasum ABRI) , masa kecil Bapak Moerdiono (sekretaris Negara) juga pernah tinggal di area ini . Yang masih tetap tinggal di area ini adalah keluarga Yuni Sara serta keluarga Musisi Jazz Koko Harsoe. Property yang dimiliki oleh keluarga Bpk Hari Soegondo ( beliau salah satu tokoh pejuang kemerdekaan 45) telah merenovasi bangunan tersebut pada th 2007 dan dikembalikan seperti semula dan difungsikan sebagai comunity center dengan mendirikan Coffee and Snack Bar.">
-<meta name="author" content="Omah Kitir">
-<meta name="copyright" content="© 2014 by Omah Kitir">
-<meta name="robots" content="index, follow">
-<meta http-equiv="content-type" content="text/html;UTF-8">
-<meta http-equiv="cache-control" content="cache">
-<meta http-equiv="content-language" content="en">
-<meta http-equiv="refresh" content="86400;86400">
-<script src="http://www.google.com/jsapi"></script>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>
+    Getting started &middot; Read Documentation
+</title>
+
+<!-- Bootstrap core CSS -->
+<link href="dist/css/bootstrap.css" rel="stylesheet">
+
+<!-- Documentation extras -->
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/css/pygments-manni.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/assets/js/html5shiv.js"></script>
+  <script src="/assets/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                               <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+<!-- Load font Awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 <script>
-  // You may specify partial version numbers, such as "1" or "1.3",
-  //  with the same result. Doing so will automatically load the 
-  //  latest version matching that partial revision pattern 
-  //  (e.g. 1.3 would load 1.3.2 today and 1 would load 1.9.1).
-  google.load("jquery", "1.9.1");
- 
-  google.setOnLoadCallback(function() {
-    // Place init code here instead of $(document).ready()
-  });
-</script>
-<style type="text/css">
-/* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-body {
-  background-color:#EEEEEE;
-  position: center;
-  margin: 0;
-  padding: 0;
-}
-#container {
-  width: 100%;
-  height: auto;
-  font-family: 'Open Sans', Arial, sans-serif;
-  position:absolute;
-  left:auto;
-  top: 20%;
-  margin-left: auto;
-  margin-top: -50px;
-  align: center;
-}
-a {
-  color: #7C3200;
-  text-decoration: none;
-}
-a:hover {
-  color: #5E2601;
-  text-decoration: none;
-}
-#fb {
-  text-decoration: none;  
-}
-#fb a{
-  text-decoration: none; 
-  color: #00891D;
-  font-size: 13pt; 
-}
-</style>
-</head>
-<body>
-<script type="text/javascript">
-
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37829680-1']);
+  _gaq.push(['_setAccount', 'UA-146052-10']);
   _gaq.push(['_trackPageview']);
-
   (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    var ga = document.createElement('script'); ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
-<center>
-<div id="container">
-	<div style="color:#7C3200;">
-	<img alt="coffe break with Greenboxindonesia" src="omahkitir_logo.png"/></br>
-		<p>Mohon Maaf... <br>
-Untuk sementara waktu website kami masih dalam proses konstruksi dan pengembangan.</p>
-		<p><i class="fa fa-home"></i> Jl. Ridwan No. 01 Batu 65311  - Jawa Timur | <i class="fa fa-mobile"></i> +62811192695</p>
+
+    <!-- Place anything custom after this. -->
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip navigation</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a href="http://www.omahkitir.com" class="navbar-brand"><i class="fa fa-home"></i></a>
+		</div>
+		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+		  <ul class="nav navbar-nav">
+			<li class="active">
+			  <a href="index.html">Selamat Datang</a>
+			</li>
+		  </ul>
+		</nav>
+	  </div>
+	</header>
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content">
+      <div class="container">
+        <h1><i class="fa fa-folder-open-o"></i> Dokumentasi</h1>
+        <p>Halaman dokumentasi dan tutorial/ petunjuk pengoperasian website yang berbasis content management system (cms) wordpress.</p>
+        <div id="carbonads-container"></div></div>
+    </div>
+
+    <!-- Callout for the old docs link -->
+    <div class="bs-old-docs">
+	  <div class="container">
+		<i class="fa fa-info"></i> Dibawah merupakan beberapa isi dan menu untuk dokumentasi dan tutorial pengoperasian website berbasis wordpress.
+	  </div>
 	</div>
-</div>
-</body>
+    <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-3">
+			<div class="bs-sidebar hidden-print" role="complementary">
+				<ul class="nav bs-sidenav">
+					<li>
+					  <a href="#halaman-login"><i class="fa fa-check-square"></i> Halaman Login</a>
+					</li>       
+					<li><a href="#update-content"><i class="fa fa-check-square"></i> Update Content</a>
+					  <ul class="nav">
+						<li><a href="#add-post"><i class="fa fa-angle-right"></i> Add Posts</a></li>
+						<li><a href="#add-page"><i class="fa fa-angle-right"></i> Add Pages</a></li>
+						<li><a href="#add-menu"><i class="fa fa-angle-right"></i> Add Menus</a></li>
+						<li><a href="#add-event"><i class="fa fa-angle-right"></i> Add Events</a></li>
+						<li><a href="#add-staff"><i class="fa fa-angle-right"></i> Add Staffs</a></li>
+					  </ul>
+					</li>
+					<li><a href="#apperance"><i class="fa fa-check-square"></i> Apperance</a>
+					  <ul class="nav">
+						<li><a href="#widget"><i class="fa fa-angle-right"></i> Widget</a></li>
+						<li><a href="#menus"><i class="fa fa-angle-right"></i> Menus</a></li>
+						<li><a href="#themes-options"><i class="fa fa-angle-right"></i> Themes Options</a></li>
+					  </ul>
+					</li>
+					<li>
+					  <a href="#plugins"><i class="fa fa-check-square"></i> Plugins/ Moduls</a>
+					</li>
+					<li>
+					  <a href="#users"><i class="fa fa-check-square"></i> Management Users</a>
+					</li>
+					<li>
+						<a href="#settings"><i class="fa fa-check-square"></i> Settings</a>
+					</li>
+					<li>
+					  <a href="#management-gallery"><i class="fa fa-check-square"></i> Management Gallery</a>
+					  <ul class="nav">
+						<li><a href="#add-gallery"><i class="fa fa-angle-right"></i> New Gallery</a></li>
+						<li><a href="#manage-galleries"><i class="fa fa-angle-right"></i> Manage Galleries</a></li>
+						<li><a href="#setting-gallery"><i class="fa fa-angle-right"></i> Settings</a></li>
+					  </ul>
+					</li>
+					<li>
+						<a href="#supporting"><i class="fa fa-check-square"></i> Bantuan dan Dukungan</a>
+					</li>
+				</ul>
+			</div>
+        </div>
+        <div class="col-md-9" role="main">
+		
+			<!-- Menu Pertama - Getting started
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="halaman-login">Halaman Login</h1>
+				  <img src="examples/screenshots/doc.omahkitir/login-page.png" alt="Dokumentasi Omahkitir.com">
+				</div>
+				<h3 id="download-cdn">Masuk Halaman Dashboard Website</h3>
+				<p>Untuk management isi dan pengaturan pada website yang berbasis content management system (CMS) wordpress Anda harus masuk terlebih dahulu pada halaman backend website tersebut dengan cara login menggunakan user yang sudah terdaftar untuk mengakses halaman backend website. Gambar diatas merupakan tampilan ketika mengakses halaman login backend website.</p>
+				<p>Anda masuk url ini terlebih dahulu untuk masuk ke halaman backend website <a>www.omahkitir.com</a><p>
+				<p><a href="http://www.omahkitir.com/wp-admin" target="_blank" class="btn btn-primary">Login</a></p>
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Catatan:</h4>
+				  <p>Masukkan user dan password Anda yang sudah Anda punyai untuk masuk pada halaman Dashboard website Anda. Perhatikan cara penulisannya dengan benar baik <a><em>besar kecilnya huruf maupun karakter</em></a> pada kata kunci (<a>passwordnya</a>)</p>
+				</div>
+			</div>
+
+			<!-- Menu Kedua
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="update-content">Update Contents</h1>
+				</div>
+				<p>Untuk update isi (content) daripada website Anda bisa langsung pada menu yang sudah ada dalam halaman Dashboard website Anda.</p>
+				<img src="examples/screenshots/doc.omahkitir/Dashboard.png" alt="Dokumentasi Omahkitir.com">
+			</div>
+
+			<!-- Submenu Kedua (1)
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="add-post">Menerbitkan Tulisan/ Artikel (Add Posts)</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/add-post.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Ikuti petunjuk sesuai dengan gambar yang ada diatas, berikut keterangan secara detail daripada <b>nomor</b> yang terdapat pada gambar:</p>
+				<ol>
+					<li><b>Kolom Judul (Diperlukan/ Tidak boleh Kosong)</b></li>
+						<p>Anda diwajibkan untuk memasukkan juduk daripada tulisan/ artikel yang akan diterbitkan pada halaman website. Untuk penulisan title/ judul pada halaman tulisan/artikel ini disarankan untuk pendek dan menarik</p>
+					<li><b>Kolom Deskripsi (Diperlukan/ Tidak boleh Kosong)</b></li>
+						<p>Kolom ini berisi ulasan daripada tulisan secara detail yang akan diterbitkan, untuk pengaturan penulisan pada tatacara penulisan Anda bisa memanfaatkan beberapa tool yang sudah tersedia diatas form isian ini dengan berbagai macam fungsi yang sudah disediakan.</p>
+					<li><b>Penyisipan Gambar pada Postingan (Disarankan untuk diisi)</b></li>
+						<p>Kolom ini digunakan untuk melampirkan gambar/ foto ilustrasi daripada tulisan/ postingan yang akan diterbitkan. Disarankan untuk kolom ini jangan sampai kosong guna mempercantik tulisan agar menarik bagi para pembaca.</p>
+					<li><b>Pengelompokan Kategori Postingan (Diperlukan/ Tidak boleh Kosong)</b></li>
+						<p>Setelah selesai pada penulisan dan penyisipan gambar, Anda disarankan untuk mencentang salah satu atau lebih pada kategori yang berfungsi untuk mempermudah pengelompokan sebuah postingan dan pengarsipan content postingan.</p>
+					<li><b>Kolom Tag (Disarankan karena penting tidak boleh Kosong)</b></li>
+						<p>Walaupun kolom ini tidah berpengaruh dalam pengarsipan/ penerbitan tulisan/ postingan, tag ini disarankan untuk tidak boleh kosong guna sebagai kata kunci dari sebuah artikel/ postingan yang diterbitkan nantinya dan tag inilah yang nantinya akan di index oleh Searc Engine Google dalam mengindex sebuah isi daripada website.</p>
+					<li><b>Tombol Update</b></li>
+						<p>Apabila semua isian dalam tulisan/postingan/artike dipandang sudah siap diterbitkan, Anda bisa melakukan tahap akhir dengan cara tekan tombol update untuk menerbitkan diwebsite Anda.</p>
+				</ol>
+			</div>
+
+			<!-- Submenu Kedua (2)
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				<h1 id="add-page">Menerbitkan Halaman (Add Pages)</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/add-page.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Secara prinsip management page ini sama seperti pada management post hanya saja ada beberapa fungsi tidak sama dalam keperuntukanya. Page dalam hal ini berfungsi sebagai halaman yang bersifat statis (tidak banyak mengalami perubahan secara dinamis), selain itu page difungsikan sebagai halaman yang diterbitkan untuk interface pada layout sebuah website.</p>
+				<p>Format pada menu pages ini kurang lebih hampir sama dengan format yang dijumpai pada menu posts, didalamnya terdapat form title page, form isian seperti pada post management. Dalam page ini tidak jumpai form tag dan pilihan category seperti pada post, yang ada hanya sebuah pilihan template yang dimana berfungsi sebagai pilihan fungsi desain layout, sebagai contoh: template contact dan template blog yang sering dijumpai dari setiap bawaan themes layaout sebuah website.</p>
+				<p>Fungsi page secara umum biasa difungsikan sebagai berikut:</p>
+				<ol>
+					<li>Custom Homepage (Desain Template untuk Homepage Website)</li>
+					<li>Halaman Profil (About Us)</li>
+					<li>Halaman Kontak (Contact Form)</li>
+					<li>Menampilkan Template untuk Recent Blog (Menampilkan semua postingan dari Post)</li>
+					<li>Custom Template Melalui shorcode sebuah plugins atau modul</li>
+					<li>Custom Template sesuai dengan Desain dan fungsi yang dibuat sesuai dengan kebutuhan</li>
+				</ol>
+			</div>
+		  
+			<!-- Submenu Kedua (3)
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="add-menu">Management Isi Menu Makanan - (Custom Post Type)</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/add-menu.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Keterangan tiap nomor pada gambar diatas sebagai berikut:</p>
+				<ol>
+					<li>Judul Menu Makanan</li>
+					<li>Add Media ini berfungsi untuk mengambil/upload gambar yang nantinya akan disisipkan pada halaman ulasan Menu seperti yang ada pada gambar diatas</li>
+					<li>Ulasan Menu secara detail dan Gambar menu yang disisipkan</li>
+					<li>Menampilkan Template untuk Recent Blog (Menampilkan semua postingan dari Post)</li>
+					<li>URL Gambar/ Foto yang nantinya akan tampil dalam halaman menu dengan posisi ada di Header (atas halaman)</li>
+					<li>URL Gambar/ Foto Thumbnail dari Menu yang akan akan diterbitkan</li>
+					<li>Form Harga Menu Makanan yang diposting</li>
+					<li>Simbol Mata uang negara example: Indonesia (RP atau IDR)</li>
+					<li>Form Harga/item dengan format tulisan yang kecil untuk harga 50K. Example: IDR70K/50K</li>
+					<li>Form Tag, ini berfungsi seperti taq yang dijumpai pada menu post berikut dengan fungsinya.</li>
+					<li>Pengelompokan Kategori, bisa dicentang salah satu atau lebih.</li>
+					<li>Publish, untuk menerbitkan postingan menu makanan.</li>
+				</ol>
+			</div>
+		  
+			<!-- Submenu Kedua (4)
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="add-event">Management Isi Events - (Custom Post Type)</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/add-event.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Fungsi halaman Event ini merupakan dokumentasi serangkaian event yang sudah terlaksana maupun yang akan diselenggarakan dan Keterangan untuk tiap nomor pada gambar diatas sebagai berikut:</p>
+				<ul>
+					<li>Nomer 1-4 mempunyai fungsi sama seperti pada Managemenet Menu diatas</li>
+					<li>Nomer 5 form untuk tulisan tombol (button) Facebook pada halaman events</li>
+					<li>Nomer 6 form untuk alamat url facebook pages example:(http://facebook.com/omahkitir)</li>
+					<li>Nomer 7 form format tanggal events posting ini dilaksanakan</li>
+					<li>Nomer 8 form diisi sesuai dengan contoh pada judul form seperti pada gambar yang terdiri dari 4 form isian</li>
+					<li>Nomer 9 merupakan form untuk isian yang berisi sekilas dari event yang akan diposting, <a><em>bukan deskripsi lengkap seperti form yang ada diatas sebelumnya</em></a></li>
+					<li>Nomer 10 merupakan pilihan untuk mengatur apakah postingan ini nanti dibuka akses untuk komentar apa tidak</li>
+					<li>Nomer 11 pilihan category untuk pengelompokan postingan event</li>
+					<li>Nomer 12 untuk update publish tidaknya</li>
+				</ul>
+			</div>
+		  
+			<!-- Submenu Kedua (5)
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="add-staff">Management Isi Staff- (Custom Post Type)</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/add-staff.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Fungsi dari management staff ini adalah untuk memposting profile staff/ karyawan/ seseorang secara detail. Untuk keterangan tiap nomer pada lampiran gambar sama seperti keterangan diatas sebelumnya dan ikuti sesuai dengan petunjuk seperti pada screenshot gambar yang terlampir.</p>
+			</div>
+
+			<!-- Apperance
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="apperance">Apperance</h1>
+				</div>
+				<p class="lead">Di dalam menu ini terdapat submenu untuk management themes, customize, widgets, menus, themes options, dan Editor. Setiap submenu mempunyai management fungsi sendiri-sendiri secara terperinci dan terpisah dengan yang lainnya. </p>
+				<h3>Berikut fungsi beberapa submenu secara umum:</h3>
+				<ol>
+				  <li><a>Themes</a>: Berfungsi sebagai management themes yang digunakan untuk interface sebuah website didalamnya.</li>
+				  <li><a>Customize</a>: Berfungsi sebagai toolkit untuk pengaturan tata layout themes sebelum diaktifkan.</li>
+				  <li><a>Widgets</a>: Berfungsi sebagai management tampilan layout untuk fitur pada layout sidebar hingga sampai pada footer sebuah website. Terkadang di fungsi widget inilah beberapa fungsi plugin dijalankan.</li>
+				  <li><a>Menus</a>: Berfungsi sebagai management menu pada sebuat website. Menu ini mempermudahkan untuk mengatur tampilan menu apa saja yang akan ditampilkan pada website.</li>
+				  <li><a>Themes-options</a>: Berfungsi sebagai management themes, salah satu contohnya untuk mengatur tampilan logo dan beberapa fitur pada tampilan depan website juga ada disini.</li>
+				  <li><a>Editor</a>: Berfungsi sebagai editor script pada themes. <em><a><b>Tidak disarankan untuk menggunakan fitur ini apabila tidak mengetahui bahasa pemograman pada website</b></a></em></li>
+				</ol>
+			</div>
+
+			<!-- Submenu - Widget
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="widget">Widget</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/widget.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Fungsi halaman Event ini merupakan dokumentasi serangkaian event yang sudah terlaksana maupun yang akan diselenggarakan dan Keterangan untuk tiap nomor pada gambar diatas sebagai berikut:</p>
+				<ul>
+					<li>Nomer 1-4 mempunyai fungsi sama seperti pada Managemenet Menu diatas</li>
+					<li>Nomer 5 form untuk tulisan tombol (button) Facebook pada halaman events</li>
+					<li>Nomer 6 form untuk alamat url facebook pages example:(http://facebook.com/omahkitir)</li>
+					<li>Nomer 7 form format tanggal events posting ini dilaksanakan</li>
+					<li>Nomer 8 form diisi sesuai dengan contoh pada judul form seperti pada gambar yang terdiri dari 4 form isian</li>
+					<li>Nomer 9 merupakan form untuk isian yang berisi sekilas dari event yang akan diposting, <a><em>bukan deskripsi lengkap seperti form yang ada diatas sebelumnya</em></a></li>
+					<li>Nomer 10 merupakan pilihan untuk mengatur apakah postingan ini nanti dibuka akses untuk komentar apa tidak</li>
+					<li>Nomer 11 pilihan category untuk pengelompokan postingan event</li>
+					<li>Nomer 12 untuk update publish tidaknya</li>
+				</ul>
+			</div>
+
+			<!-- Submenu - Menus
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="menus">Management Menu</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/menus.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Fungsi halaman Event ini merupakan dokumentasi serangkaian event yang sudah terlaksana maupun yang akan diselenggarakan dan Keterangan untuk tiap nomor pada gambar diatas sebagai berikut:</p>
+				<ul>
+					<li>Nomer 1-4 mempunyai fungsi sama seperti pada Managemenet Menu diatas</li>
+					<li>Nomer 5 form untuk tulisan tombol (button) Facebook pada halaman events</li>
+					<li>Nomer 6 form untuk alamat url facebook pages example:(http://facebook.com/omahkitir)</li>
+					<li>Nomer 7 form format tanggal events posting ini dilaksanakan</li>
+					<li>Nomer 8 form diisi sesuai dengan contoh pada judul form seperti pada gambar yang terdiri dari 4 form isian</li>
+					<li>Nomer 9 merupakan form untuk isian yang berisi sekilas dari event yang akan diposting, <a><em>bukan deskripsi lengkap seperti form yang ada diatas sebelumnya</em></a></li>
+					<li>Nomer 10 merupakan pilihan untuk mengatur apakah postingan ini nanti dibuka akses untuk komentar apa tidak</li>
+					<li>Nomer 11 pilihan category untuk pengelompokan postingan event</li>
+					<li>Nomer 12 untuk update publish tidaknya</li>
+				</ul>
+			</div>
+		  
+			<!-- Submenu - Themes Options
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="themes-options">Management Themes (Themes Options)</h1>
+				</div>
+				<h3>Management Social Icons:</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option1.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Seperti petunjuk pada gambar diatas terdapat form untuk diisi serangkaian URL Social Icon. <b>Example</b> (<a>http://facebook.com/omahkitir.com</a>), bisa dikosongi bila tidak mempunyai akun atau membuat akun yang baru.</p>
+				</div>
+				<h3>Management Header (Bagian Atas/ homepage website)</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option2.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Bila Anda ingin merubah isi daripada keterangan yang ada di Homepage (halaman paling depan) website Anda bisa merubahnya sesuai dengan keinginan Anda dengan cara ganti semua isi pada form yang telah ada lalu <b>OK</b> (simpan)</p>
+				</div>
+				<h3>Management Styling Options</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option3.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Management styling option ini berfungsi sebagai pengaturan untuk merubah themes color (warna) pada interface website sesuai dengan keinginan Anda.</p>
+				</div>
+				<h3>Widget Styling Options</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option4.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Management widget styling option ini berfungsi hampir sama dengan Styling Options sebelumnya yang berfungsi untuk merubah warna widget sesuai dengan keinginan Anda sendiri.</p>
+				</div>
+				<h3>Background Options</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option5.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Background Options ini berfungsi untuk mempermudahkan dalam mengatur/ merubah tampilan belakang/ background daripada website sesuai dengan keinginan Anda.</p>
+				</div>
+				<h3>Slider Options</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option6.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Seperti yang tertera dalam petunjuk screenshot gambar diatas. Anda bisa mengganti/merubah dan memanagament isi daripada slider (animasi gambar berjalan) pada halaman utama (homepage) pada website sesuai dengan keinginan Anda secara mudah.</p>
+				</div>
+				<h3>Pages Options</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option7.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Seperti yang tertera dalam petunjuk screenshot gambar diatas. Anda bisa mengganti sesuai dengan kebutuhan, dan untuk format penulisan bisa ikuti petunjuk pada title pada forms isian.</p>
+				</div>
+				<h3>Footer Options</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option8.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Footer merupakan layout bagian paling bawah dari interface website. Anda bisa mengganti sesuai dengan kebutuhan, dan untuk format penulisan bisa ikuti petunjuk pada title pada forms isian.</p>
+				</div>
+				<h3>Custom Post Slug</h3>
+				<img src="examples/screenshots/doc.omahkitir/Themes-option9.png" alt="Dokumentasi Omahkitir.com">
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Keterangan:</h4>
+				  <p>Fungsi dari pada <b>Slug</b> ini untuk merubah url pada tiap postingan. <a>Kami menyarankan apabila tidak mengetahui secara detail fungsi tool ini, Anda bisa membiarkannya kosong.</a></p>
+				</div>
+				<p class="lead">Untuk keamanan dan keberlangsungan fungsi sistem daripada website, Disarankan untuk semua managament <a>Themes Options</a> ini bisa dibiarkan sesuai dengan settingan bawaan dari kami, akan tetapi bukan berarti Anda tidak bisa merubah isi bawaan yang sudah kami settingkan sesuai dengan kebutuhan Anda.</p>
+			</div>
+		  
+			<!-- Menu - Plugins/ Moduls
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="plugins">Management Plugins</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/plugins.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Fungsi halaman Event ini merupakan dokumentasi serangkaian event yang sudah terlaksana maupun yang akan diselenggarakan dan Keterangan untuk tiap nomor pada gambar diatas sebagai berikut:</p>
+				<ul>
+					<li>Nomer 1-4 mempunyai fungsi sama seperti pada Managemenet Menu diatas</li>
+					<li>Nomer 5 form untuk tulisan tombol (button) Facebook pada halaman events</li>
+					<li>Nomer 6 form untuk alamat url facebook pages example:(http://facebook.com/omahkitir)</li>
+					<li>Nomer 7 form format tanggal events posting ini dilaksanakan</li>
+					<li>Nomer 8 form diisi sesuai dengan contoh pada judul form seperti pada gambar yang terdiri dari 4 form isian</li>
+					<li>Nomer 9 merupakan form untuk isian yang berisi sekilas dari event yang akan diposting, <a><em>bukan deskripsi lengkap seperti form yang ada diatas sebelumnya</em></a></li>
+					<li>Nomer 10 merupakan pilihan untuk mengatur apakah postingan ini nanti dibuka akses untuk komentar apa tidak</li>
+					<li>Nomer 11 pilihan category untuk pengelompokan postingan event</li>
+					<li>Nomer 12 untuk update publish tidaknya</li>
+				</ul>
+			</div>
+		  
+			<!-- Menu - Managements Users
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="users">Management Users</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/add-user.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Menu ini digunakan untuk menambahkan user/ akun pada website. Anda sebagai Administrator bisa menambahkan user/ akun secara sepihak dan bisa mengatur posisi fungsi akun untuk level akses dalam sebuah website.</p>
+				<h4>Berikut keterangan detail fungsi Akun sesuai dengan level Akses pada pengoperasian website:</h4>
+				<ol>
+					<li><b>Adminstrator</b>: Mempunyai level akses secara total dalam pengoperasian sebuah fitur dalam website</li>
+					<li><b>Subscriber</b>: User/ Akun ini hanya mempunyai level akses sebagai pelanggan saja dari update sebuah website lewat email yang didaftarkan dan tidak bisa mengakses Dashboar/ Backend website.</li>
+					<li><b>Contributor & Author & Editor</b>: Akun/ User ini mempunyai level untuk mengakse Dashboard Website dan bisa mengirimkan/ menerbitkan/ deleted/ edit/ merubah sebuah postingan saja dalam post.</li>
+					<li><b>Adminstrator</b>: Mempunyai level akses secara total dalam pengoperasian sebuah fitur dalam website</li>
+				</ol>
+			</div>
+		  
+			<!-- Menu - Setting General
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="settings">Setting General</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/setting-general.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Dalam Menu settings ini sebenarnya ada beberapa submenu didalamnya, cuman dalam pendokumentasian ini hanya menjelaskan fungsi menu yang sekiranya penting untuk diketahui secara umum.</p>
+				<p>Menu setting terdapat beberapa pilihan didalamnya untuk memangement point penting dalam sebuah website, salah satunya diataranya yaitu:</p>
+				<ol>
+					<li>Mengatur Title (Judul) Website</li>
+					<li>Mengatur Tagline Website</li>
+					<li>URL Website (Alamat Website) dan Site Address (URL) mengatur url homepage</li>
+					<li>Email Address: ini berfungsi sebagai alamat email pemilik website, yang dimana ketika setiap ada perubahan pengembangan pada website akan mengirimkan report (laporan) ke alamat email ini.</li>
+					<li>Membership: sebuah pilihan untuk open subscribe apa tidak dengan menyentang atau tidak untuk mengaktifkannya</li>
+					<li>Pengaturan Akses Level User tiap ada regristasi: <a>settingan bawaan pada level subscribe</a></li>
+					<li>Pilihan yang lainnya terkaitan tatacara penulisan waktu, hari, dan jam</li>
+				</ol>
+			</div>
+		  
+			<!-- Menu - Management Gallery
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="management-gallery">Management Gallery</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/gallery.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Menu ini digunakan untuk mengatur segala bentuk settingan dalam Gallery, didalamnya ada submenu untuk lebih spesifik dalam mengatur sistem dalam Gallery, diantaranya sebagai berikut:</p>
+				<ol>
+					<li><b>New Gallery</b>: Berfungsi untuk menambahkan Gallery dan Upload isi daripada Gallery.</li>
+					<li><b>Manage Galleries</b>: Berfungsi untuk mengedit/ merubah settingan Gallery yang sudah ada dalam Gallery baik menghapus atau menambahkan ulang sebuah foto.</li>
+					<li><b>Settings</b>: Untuk mengatur settingan akses pada halaman Gallery di Dashboard (admin website).</li>
+				</ol>
+			</div>
+		  
+			<!-- Submenu - Add New Gallery
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="add-gallery">New Gallery</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/edit-gallery-1.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Berfungsi untuk menambahkan Gallery dan Upload isi daripada Gallery. Dalam menu ini Anda bisa menambahkan beberapa hal terkait dengan Gallery, antara lain:</p>
+				<ol>
+					<li>Anda bisa menambahkan foto maupun video dengan cara mengupload filenya saja.<a>Untuk upload video kami menyarankan untuk mengupload video kedalam youtube, setalah itu Anda bisa Add Video dengan melampirkan Link URL Video tersebut.</li>
+					<li>Anda bisa mengatur tampilan daripada Gallery yang sudah Anda buat pada menu nomer 2 dan 3 yaitu <b>Layout dan Skins</b> dengan beberapa pilihan yang variatif didalamnya.</li>
+					<li>Didalamnya juga terdapat menu options pada nomer 4, Anda bisa mencoba dan mengaturnya sesuai dengan keinginan Anda dengan mengikuti petunjuk keterangan didalamnya.</li>
+					<li>Sebelum Anda menterbitkan Gallery tersebut Anda juga bisa melihat terlebih dahulu hasil settingan yang sudah Anda pilih setelah itu tinggal <a>Save & Publish</a><li>
+				</ol>
+			</div>
+		  
+			<!-- Submenu - Manage Gallery
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="manage-galleries">Manage Galleries</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/edit-gallery.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Semua Gallery dan Settingan yang dibuat tiap-tiap Gallery yang Anda buat akan muncul di Menu ini, baik ID Gallery, Nama Gallery, Shortcode, PHP Code, dan Tanggal Pembuatannya.</p>
+				<p>Anda sebagai Administrator juga bisa menghapus Gallery yang Anda buat sebelumnya dengan cara centang pilihan yang ada pada sebelah kiri, dan pada pilihan <a>Bulk Actions</a> pilih Deleted dan klik <b>Apply</b></p>
+				<div class="bs-callout bs-callout-warning" id="callout-less-compilation">
+				  <h4>Catatan:</h4>
+				  <p>Untuk menerbitkan Gallery yang sudah dibuat sebelumnya, Anda harus melakukan tahap berikutnya. Dalam Management Gallery ini Anda melihat code <b><a>Shortcode</a></b> pada tiap Gallery yang sudah Anda buat.</p>
+				  <p>Fungsi daripada Code <a><b>Shortcode</b></a> inilah selanjutnya Anda gunakan untuk ditampilkan dengan cara memasukkan Code Shortcode tersebut kedalam <a><b>Pages</b></a> yang dibuat.</p>
+				  <p>Dan untuk <a><b>PHP Code</b></a> fungsinya hampir sama dengan fungsi shortcode, hanya saja dalam penempatan code tersebut ke dalam script PHP (file template pada Website). Untuk itu kami tidak <b>Menyarankan</b> menggunakan fungsi ini bila Anda tidak menguasia bahasa pemograman php dan struktur CMS pada Wordpress.</p>
+				</div>
+			</div>
+		  
+			<!-- Submenu - Setting Gallery
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="setting-gallery">Setting Gallery</h1>
+				</div>
+				<img src="examples/screenshots/doc.omahkitir/setting-gallery.png" alt="Dokumentasi Omahkitir.com">
+				<h3>Petunjuk dan Keterangan:</h3>
+				<p>Anda bisa melihat petunjuk pada screenshot yang ada diatas, settingan ini digunakan/ berfungsi sebagai pengaturan akses level untuk melihat Managemet Event dalam Dashboard Website.</p>
+				<p><b>Set Minimum User Role</b>: Pilihan ini berfungsi sebagai <a>Pengaturan Level Akses pada sebuah User</a> yang Ada di website Anda. Pilihan settingan Default level akses dengan pilihan <a><b>Administrator</b></a>, yang berarti hanya user Administrator saja yang memiliki akses dalam pengaturan Gallery ini.</p>
+				<p><b>Select the default image size from Media Library for grid thumbnails</b>: Untuk pilihan ini default settingan yang dipilih adalah Thumbnail Size.</p>
+			</div>
+			
+			<!-- Supporting
+			================================================== -->
+			<div class="bs-docs-section">
+				<div class="page-header">
+				  <h1 id="supporting">Supporting</h1>
+				</div>
+				<p class="lead">Untuk setiap bantuan dan dukungan akan kami buka bagi setiap klien yang sudah mengambil paket didalamnya ada point bantuan dan dukungan didalamnya.</p>
+				<p>Kami akan senang apabila kami bisa menjadi rekanan dan dipercaya untuk tiap pengembangan website dari layanan paket yang kami sediakan termasuk didalamnya ada bantuan dan dukungan dari kami. Setiap permasalahan dan pengembangan akan kami kaji terlebih dahulu sebagai tahap analisa didalamnya yang didalamnya akan dikomunikasikan lebih lanjut terhadap klien untuk duduk permasalahan berikut pengembangannya guna mencapai kesepemahaman bersama.</p>
+				<div class="bs-callout bs-callout-info">
+					<h4>Kontak Kami:</h4>
+						<p>Setiap klien bisa mengirimkan pengembangan dan permasalahan yang dihadapi dari layanan paket website kami berikan ke alamat kami:</p>
+							<ol>
+								<li>Alamat Email: <a href="mailto:info@gb.co.id">info@gb.co.id</a></li>
+								<li>Kunjungi alamat website kami di <a href="www.help.greenbox.web.id" target="_blank">www.help.greenbox.web.id</a> (<a>Still Underconstructions</a>)</li>
+							</ol>
+				</div>
+				<p>Kesepemahaman bersama antar satu dengan yang lain merupakan capaian untuk menciptakan kerjasama yang harmoni dalam setiap penyelesaian permasalahan yang ada. Kami berharap, kami bisa menjadi rekan yang mampu menemani dalam kesuksesan bisnis yang sedang Anda jalankan sekarang ini.</p>
+			</div>
+        </div>
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="bs-footer" role="contentinfo">
+      <div class="container">
+        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+		<p>Follow Akun Jaringan Social Kami di:</p>
+		<ul class="footer-links">
+				<li><a href="http://twitter.com/greenbox_id" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+				<li class="muted">&middot;</li>
+				<li><a href="https://fb.com/greenboxindonesia" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+				<li class="muted">&middot;</li>
+				<li><a href="https://plus.google.com/+GreenboxindonesiaMalang" target="_blank"><i class="fa fa-google-plus"></i> Google Plus</a></li>
+				<li class="muted">&middot;</li>
+				<li><a href="http://news.greenbox.web.id/" target="_blank"><i class="fa fa-rss"></i> Issues</a></li>
+				<li class="muted">&middot;</li>
+				<li><a href="https://greenbox.web.id" target="_blank"><i class="fa fa-html5"></i> Website</a></li>
+				<li class="muted">&middot;</li>
+				<li><a href="https://github.com/greenboxindonesia" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+			</ul>
+      </div>
+    </footer>
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"></script>
+<script src="dist/js/bootstrap.js"></script>
+<script src="assets/js/holder.js"></script>
+<script src="assets/js/application.js"></script>
+
+<!-- Analytics
+================================================== -->
+<script>
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+  </body>
+<!-- Mirrored from getbootstrap.com/getting-started/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 02 Oct 2013 12:14:23 GMT -->
 </html>
